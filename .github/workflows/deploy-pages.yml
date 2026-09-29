@@ -34,7 +34,7 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          NEXT_PUBLIC_BASE_PATH: /sop-isg7
+          NEXT_PUBLIC_BASE_PATH: /sop-isg8
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
